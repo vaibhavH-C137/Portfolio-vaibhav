@@ -56,12 +56,19 @@ ul {
     /* (in this 1rem is both for left aswellas right) */
 }
 
+.container-otherwise {
+    max-width: 1000px;
+    margin: auto;
+
+}
+
 
 /* links */
 .link {
+    color: lightseagreen;
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     /* top right bottom left */
 }
 
@@ -90,13 +97,14 @@ ul {
 
 .list-non-bullet {
     list-style: none;
-    /* text-align: left; */
+    /* text-align: right; */
 }
 
 
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+    align-items: baseline;
 }
 
 /* nav is tricky */
@@ -145,8 +153,8 @@ ul {
 
 .hero .hero-heading .heading-zero {
     font-size: large;
-    color: rgb(131, 58, 180);
-    background: linear-gradient(298deg, rgba(131, 58, 180, 1) 0%, rgba(253, 247, 29, 1) 0%, rgba(245, 78, 88, 1) 80%);
+    color: rgba(255, 51, 0, 0.692);
+    /* background: linear-gradient(298deg, rgba(131, 58, 180, 1) 0%, rgba(253, 247, 29, 1) 0%, rgba(245, 78, 88, 1) 80%); */
     ;
 }
 
@@ -171,7 +179,7 @@ ul {
 .footer {
     background: rgb(131, 58, 180);
     background: linear-gradient(298deg, rgba(131, 58, 180, 1) 0%, rgb(253, 130, 29) 0%, rgba(245, 88, 88, 1) 100%);
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -193,3 +201,5 @@ ul {
 .article-border {
     padding: 2rem;
 }
+
+
